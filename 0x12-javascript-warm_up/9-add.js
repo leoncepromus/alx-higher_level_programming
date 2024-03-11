@@ -1,14 +1,9 @@
 #!/usr/bin/node
-const add = (a, b) => {
-    return a + b;
-};
-
-const firstInteger = parseInt(process.argv[2]);
-const secondInteger = parseInt(process.argv[3]);
-
-if (isNaN(firstInteger) || isNaN(secondInteger)) {
-    console.log("Missing or invalid integers");
-} else {
-    const result = add(firstInteger, secondInteger);
-    console.log(`The addition of ${firstInteger} and ${secondInteger} is: ${result}`);
+const arg = process.argv;
+function add (a, b) {
+  const result = num1 + num2;
+  return result;
 }
+var num1 = parseInt(Number(arg[2]));
+var num2 = parseInt(Number(arg[3]));
+console.log(add(num1, num2));
