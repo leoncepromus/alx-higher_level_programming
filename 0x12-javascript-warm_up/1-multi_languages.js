@@ -1,5 +1,4 @@
 #!/usr/bin/node
-const arr = ['C is fun', 'Python is cool', 'Javascript is amazing'];
-arr.forEach(function (el) {
-  console.log(el);
-});
+console.log('C is fun');
+console.log('Python is cool');
+console.log('JavaScript is amazing');
