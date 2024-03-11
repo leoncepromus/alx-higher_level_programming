@@ -1,5 +1,8 @@
 #!/usr/bin/node
-exports.add = function (n, m) {
-  const result = n + m;
-  return result;
+const myObject = {
+  type: 'object',
+  value: 12
 };
+console.log(myObject);
+myObject.value = 89;
+console.log(myObject);
