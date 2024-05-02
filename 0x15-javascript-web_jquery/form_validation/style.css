@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.form-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    background-color: aquamarine;
+    padding-top: 10%;
+}
+#myForm
+{
+   
+}
+
+input{
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: transparent;
+}
+
+textarea{
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: transparent;
+}
+
+input[type=button]{
+    margin: 15% 40%;
+    border: 0;
+    color: black;
+    background-color: rgb(13, 213, 56);
+    padding: 5%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+input[type=button]:hover{
+   
+    background-color: rgb(1, 90, 20);
+    padding: 5%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+span {
+
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    color: rgb(189, 65, 65);
+}
+
+span i{
+    color: rgb(4, 133, 75);
+}
+label{
+    text-transform: capitalize;
+    font-weight:bolder;
+}
+h1{
+    text-align: center;
+}
+
+
+span .fa-circle-xmark
+{
+    
+    color: rgb(189, 65, 65);
+}

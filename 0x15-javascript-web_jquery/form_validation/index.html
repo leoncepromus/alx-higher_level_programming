@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    
+    <h1>Form Validation</h1>
+    <div class="form-container">
+        <form action="" id="myForm">
+            <label>fullname</label><br>
+            <input type="text" name="" id="contact-name" onkeyup="validateName()"><br>
+            <span id="name-error"></span>
+            <label>phone</label><br>
+            <input type="tel" name="" id="contact-phone" onkeyup="validatePhone()"><br>
+            <span id="phone-error"></span>
+            <label>email</label><br>
+            <input type="text" name="" id="contact-email" onkeyup="validateEmail()"><br>
+            <span id="email-error"></span>
+            <label>message</label><br>
+            <textarea rows="5" cols="20" id="contact-message" onkeyup="validateMessage()">
+            </textarea><br> 
+            <span id="msg-error"></span>
+           <button onclick="return validateForm()">send</button>
+             <span id="submit-error"></span>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
